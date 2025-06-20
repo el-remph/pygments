@@ -1,0 +1,789 @@
+'%{'          Punctuation
+'\n'          Text.Whitespace
+
+"/* Command-line: gperf -L KR-C -F ', 0, 0' -j1 -i 1 -g -o -t -N is_reserved_word -k1,3,$ c-parse.gperf  */" Comment.Multiline
+' '           Text.Whitespace
+'\n'          Text.Whitespace
+
+'%}'          Punctuation
+'\n'          Text.Whitespace
+
+'struct'      Keyword
+' '           Text.Whitespace
+'resword'     Name.Class
+' '           Text.Whitespace
+'{'           Punctuation
+' '           Text.Whitespace
+'const'       Keyword
+' '           Text.Whitespace
+'char'        Keyword.Type
+' '           Text.Whitespace
+'*'           Operator
+'name'        Name
+';'           Punctuation
+' '           Text.Whitespace
+'short'       Keyword.Type
+' '           Text.Whitespace
+'token'       Name
+';'           Punctuation
+' '           Text.Whitespace
+'enum'        Keyword
+' '           Text.Whitespace
+'rid'         Name
+' '           Text.Whitespace
+'rid'         Name
+';'           Punctuation
+' '           Text.Whitespace
+'}'           Punctuation
+';'           Punctuation
+'\n'          Text.Whitespace
+
+'%%'          Keyword
+'\n'          Text.Whitespace
+
+'@class'      Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'CLASS'       Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'@compatibility_alias' Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'ALIAS'       Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'@defs'       Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'DEFS'        Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'@encode'     Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'ENCODE'      Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'@end'        Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'END'         Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'@implementation' Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'IMPLEMENTATION' Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'@interface'  Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'INTERFACE'   Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'@private'    Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'PRIVATE'     Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'@protected'  Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'PROTECTED'   Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'@protocol'   Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'PROTOCOL'    Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'@public'     Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'PUBLIC'      Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'@selector'   Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'SELECTOR'    Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'__alignof'   Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'ALIGNOF'     Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'__alignof__' Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'ALIGNOF'     Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'__asm'       Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'ASM_KEYWORD' Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'__asm__'     Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'ASM_KEYWORD' Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'__attribute' Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'ATTRIBUTE'   Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'__attribute__' Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'ATTRIBUTE'   Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'__complex'   Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPESPEC'    Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_COMPLEX' Name
+'\n'          Text.Whitespace
+
+'__complex__' Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPESPEC'    Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_COMPLEX' Name
+'\n'          Text.Whitespace
+
+'__const'     Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPE_QUAL'   Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_CONST'   Name
+'\n'          Text.Whitespace
+
+'__const__'   Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPE_QUAL'   Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_CONST'   Name
+'\n'          Text.Whitespace
+
+'__extension__' Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'EXTENSION'   Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'__imag'      Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'IMAGPART'    Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'__imag__'    Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'IMAGPART'    Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'__inline'    Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'SCSPEC'      Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_INLINE'  Name
+'\n'          Text.Whitespace
+
+'__inline__'  Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'SCSPEC'      Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_INLINE'  Name
+'\n'          Text.Whitespace
+
+'__iterator'  Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'SCSPEC'      Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_ITERATOR' Name
+'\n'          Text.Whitespace
+
+'__iterator__' Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'SCSPEC'      Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_ITERATOR' Name
+'\n'          Text.Whitespace
+
+'__label__'   Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'LABEL'       Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'__real'      Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'REALPART'    Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'__real__'    Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'REALPART'    Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'__restrict'  Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPE_QUAL'   Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_RESTRICT' Name
+'\n'          Text.Whitespace
+
+'__restrict__' Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPE_QUAL'   Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_RESTRICT' Name
+'\n'          Text.Whitespace
+
+'__signed'    Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPESPEC'    Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_SIGNED'  Name
+'\n'          Text.Whitespace
+
+'__signed__'  Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPESPEC'    Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_SIGNED'  Name
+'\n'          Text.Whitespace
+
+'__typeof'    Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPEOF'      Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'__typeof__'  Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPEOF'      Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'__volatile'  Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPE_QUAL'   Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_VOLATILE' Name
+'\n'          Text.Whitespace
+
+'__volatile__' Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPE_QUAL'   Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_VOLATILE' Name
+'\n'          Text.Whitespace
+
+'asm'         Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'ASM_KEYWORD' Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'auto'        Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'SCSPEC'      Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_AUTO'    Name
+'\n'          Text.Whitespace
+
+'break'       Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'BREAK'       Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'bycopy'      Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPE_QUAL'   Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_BYCOPY'  Name
+'\n'          Text.Whitespace
+
+'byref'       Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPE_QUAL'   Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_BYREF'   Name
+'\n'          Text.Whitespace
+
+'case'        Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'CASE'        Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'char'        Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPESPEC'    Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_CHAR'    Name
+'\n'          Text.Whitespace
+
+'const'       Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPE_QUAL'   Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_CONST'   Name
+'\n'          Text.Whitespace
+
+'continue'    Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'CONTINUE'    Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'default'     Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'DEFAULT'     Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'do'          Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'DO'          Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'double'      Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPESPEC'    Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_DOUBLE'  Name
+'\n'          Text.Whitespace
+
+'else'        Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'ELSE'        Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'enum'        Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'ENUM'        Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'extern'      Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'SCSPEC'      Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_EXTERN'  Name
+'\n'          Text.Whitespace
+
+'float'       Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPESPEC'    Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_FLOAT'   Name
+'\n'          Text.Whitespace
+
+'for'         Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'FOR'         Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'goto'        Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'GOTO'        Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'id'          Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'OBJECTNAME'  Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_ID'      Name
+'\n'          Text.Whitespace
+
+'if'          Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'IF'          Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'in'          Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPE_QUAL'   Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_IN'      Name
+'\n'          Text.Whitespace
+
+'inout'       Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPE_QUAL'   Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_INOUT'   Name
+'\n'          Text.Whitespace
+
+'inline'      Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'SCSPEC'      Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_INLINE'  Name
+'\n'          Text.Whitespace
+
+'int'         Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPESPEC'    Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_INT'     Name
+'\n'          Text.Whitespace
+
+'long'        Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPESPEC'    Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_LONG'    Name
+'\n'          Text.Whitespace
+
+'oneway'      Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPE_QUAL'   Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_ONEWAY'  Name
+'\n'          Text.Whitespace
+
+'out'         Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPE_QUAL'   Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_OUT'     Name
+'\n'          Text.Whitespace
+
+'register'    Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'SCSPEC'      Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_REGISTER' Name
+'\n'          Text.Whitespace
+
+'restrict'    Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPE_QUAL'   Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_RESTRICT' Name
+'\n'          Text.Whitespace
+
+'return'      Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'RETURN'      Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'short'       Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPESPEC'    Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_SHORT'   Name
+'\n'          Text.Whitespace
+
+'signed'      Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPESPEC'    Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_SIGNED'  Name
+'\n'          Text.Whitespace
+
+'sizeof'      Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'SIZEOF'      Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'static'      Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'SCSPEC'      Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_STATIC'  Name
+'\n'          Text.Whitespace
+
+'struct'      Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'STRUCT'      Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'switch'      Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'SWITCH'      Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'typedef'     Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'SCSPEC'      Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_TYPEDEF' Name
+'\n'          Text.Whitespace
+
+'typeof'      Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPEOF'      Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'union'       Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'UNION'       Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace
+
+'unsigned'    Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPESPEC'    Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_UNSIGNED' Name
+'\n'          Text.Whitespace
+
+'void'        Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPESPEC'    Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_VOID'    Name
+'\n'          Text.Whitespace
+
+'volatile'    Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'TYPE_QUAL'   Name
+','           Punctuation
+' '           Text.Whitespace
+'RID_VOLATILE' Name
+'\n'          Text.Whitespace
+
+'while'       Literal.String
+','           Punctuation
+' '           Text.Whitespace
+'WHILE'       Name
+','           Punctuation
+' '           Text.Whitespace
+'NORID'       Name
+'\n'          Text.Whitespace

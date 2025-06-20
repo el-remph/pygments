@@ -199,6 +199,7 @@ LEXERS = {
     'GoogleSqlLexer': ('pygments.lexers.sql', 'GoogleSQL', ('googlesql', 'zetasql'), ('*.googlesql', '*.googlesql.sql'), ('text/x-google-sql', 'text/x-google-sql-aux')),
     'GosuLexer': ('pygments.lexers.jvm', 'Gosu', ('gosu',), ('*.gs', '*.gsx', '*.gsp', '*.vark'), ('text/x-gosu',)),
     'GosuTemplateLexer': ('pygments.lexers.jvm', 'Gosu Template', ('gst',), ('*.gst',), ('text/x-gosu-template',)),
+    'GperfLexer': ('pygments.lexers.gperf', 'gperf', ('gperf',), ('*.gperf',), ()),
     'GraphQLLexer': ('pygments.lexers.graphql', 'GraphQL', ('graphql',), ('*.graphql',), ()),
     'GraphvizLexer': ('pygments.lexers.graphviz', 'Graphviz', ('graphviz', 'dot'), ('*.gv', '*.dot'), ('text/x-graphviz', 'text/vnd.graphviz')),
     'GroffLexer': ('pygments.lexers.markup', 'Groff', ('groff', 'nroff', 'man'), ('*.[1-9]', '*.man', '*.1p', '*.3pm'), ('application/x-troff', 'text/troff')),
